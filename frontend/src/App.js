@@ -79,7 +79,7 @@ const AuthProvider = ({ children }) => {
       setToken(access_token);
       setUser(userData);
       
-      toast.success('Welcome to TaskMaster!');
+      toast.success('Welcome to Taskify!');
       return { success: true };
     } catch (error) {
       const message = error.response?.data?.detail || 'Registration failed';
