@@ -28,7 +28,7 @@ JWT_ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_HOURS = 24
 
 # Create the main app
-app = FastAPI(title="Notion-Style Task Manager", version="1.0.0")
+app = FastAPI(title="Taskify - Notion-Style Task Manager", version="1.0.0")
 api_router = APIRouter(prefix="/api")
 security = HTTPBearer()
 
